@@ -1,0 +1,26 @@
+.form-column {
+    max-width: 900px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.addIcon {
+    color: #0E6EB8;
+}
+
+.contactPicture {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgba(116, 114, 140, 0.2 );
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choosePictureBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}

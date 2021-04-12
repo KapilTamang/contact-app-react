@@ -1,0 +1,37 @@
+.slide-container {
+    display: flex;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 65rem;
+    margin: auto;
+}
+
+.items-container {
+    display: flex;
+    overflow-y: hidden;
+    justify-content: center;
+    margin: 5px 0px 10px;
+}
+
+.items-container::-webkit-scrollbar {
+    display: none;   
+}
+
+.single-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 9rem;
+}
+
+.name {
+    font-size: 1rem;
+}
+
+.icon-class {
+    cursor: pointer;
+}
+
